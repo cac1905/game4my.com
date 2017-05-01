@@ -1,0 +1,84 @@
+﻿/*************
+    CONTENT
+**************/
+body{
+	font-family: 'AvantGarde LT Book';
+}
+.content .step4{
+    background: url(../images/bg-step.png) no-repeat;
+}
+/**** left float banner ***/
+#floatBanner {
+     background:url(../images/float-banner.jpg) no-repeat;
+ }
+ /**** top wineers ***/
+.topWinners{
+    background: url(../images/bg-slot_jackpot.gif) no-repeat;
+}
+
+.utility-links li {
+    padding: 20px 6px;
+    font: 12px/1 "Tahoma";
+}
+.utility-links a {
+    display: inline-block;
+}
+header h2 a{
+    font-size: 22px;
+}
+.bgs_1 .img_area {
+    top:-80px;
+}
+ .bgs_3 .img_area {
+    top: 35px; 
+}
+#floatBanner h2{
+    line-height: 32px;
+}
+.step4 .num4{
+    margin-left: 25px;
+}
+
+.colophon .group.a,
+.colophon .group.c {
+    margin:1% 0;
+}
+.btn-index-start {
+    width: 148px;
+}
+.step4 .last-child span{
+    font-size: 30px;
+}
+.step4 li{
+    font-size: 18px;
+}
+.game-list li  a{
+    font-size: 12px;
+}
+.da-thumbs li a div span {
+    font-size: 14px;
+    padding: 8px;
+}
+.bgs_1 .s_img {
+    width: 350px;
+}
+
+
+
+
+
+
+/********************
+    RESPONSIVE
+********************/
+@media screen and (max-width:480px){ 
+    .bgs_3 .img_area {
+        top: 260px;
+    }
+     .bgs_1 .img_area {
+        top: 245px;
+    }
+    .img_area {
+        top: 240px;
+    }
+ }
